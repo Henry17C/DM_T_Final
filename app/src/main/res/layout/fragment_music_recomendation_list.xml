@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.MusicRecomendationListFragment"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progresBar"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMusicRecomentations"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        tools:listitem="@layout/fragment_music_recomendation_item"
+        android:layout_marginTop="0dp" />
+
+
+</LinearLayout>

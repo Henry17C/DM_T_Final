@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ZenTunes</string>
+
+
+    //Pantalla de Seleccion de Inicion de sesion o registro
+    <string name="stng_start_m1">¡Empecemos!</string>
+    <string name="stng_start_m2">Únete a nuestra increíble comunidad de amantes de la música</string>
+
+    //Screen Sign In
+    <string name="stng_sign_in_m0">Iniciar sesión</string>
+    <string name="stng_sign_in_m1">Bienvenido(a) de nuevo</string>
+    <string name="stng_sign_in_m2">Ingresa con tu email para unirte a la comunidad</string>
+    <string name="stng_sign_in_m3">Correo electrónico</string>
+    <string name="stng_sign_in_m4">Contraseña</string>
+    <string name="stng_sign_in_m5">Iniciar sesión</string>
+    <string name="stng_sign_in_m6">¿Aún no estás en ZenTunes?</string>
+    <string name="stng_sign_in_m7">Regístrate</string>
+    <string name="stng_sign_in_m8">Continuar como invitado</string>
+
+    //Screen Singn up
+
+    <string name="stng_sign_up_m1">Regístrate</string>
+    <string name="stng_sign_up_m2">Crea tu cuenta</string>
+    <string name="stng_sign_up_m3">Registrate con tu email para unirte a la comunidad</string>
+    <string name="stng_sign_up_m4">Nombre</string>
+    <string name="stng_sign_up_m5">Apellido</string>
+    <string name="stng_sign_up_m6">Correo electronico</string>
+    <string name="stng_sign_up_m7">Contraseña</string>
+    <string name="stng_sign_up_m8">Debe tener al menos 8 caracteres</string>
+    <string name="stng_sign_up_m9">¿Ya tienes cuenta?</string>
+    <string name="stng_sign_up_m10">Iniciar</string>
+
+    //navigation bar
+
+    <string name="stng_nb1">Inicio</string>
+    <string name="stng_nb2">Música</string>
+    <string name="stng_nb3">Buscar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

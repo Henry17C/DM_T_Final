@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.fragments.SignUpFragment">
+    <ImageButton
+        android:id="@+id/btn_arrow"
+        style="@style/button_style"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="56dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        style="@style/textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/stng_sign_up_m1"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintStart_toEndOf="@+id/btn_arrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/textView_style"
+        android:layout_width="300dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/stng_sign_up_m3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/stng_sign_up_m2"
+        android:textSize="@dimen/text_size_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <EditText
+            android:id="@+id/txtName"
+            style="@style/edit_text_style"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/stng_sign_up_m4" />
+
+        <EditText
+            android:id="@+id/txtLastName"
+            style="@style/edit_text_style"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/stng_sign_up_m5" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            style="@style/edit_text_style"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/stng_sign_up_m6" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            style="@style/edit_text_style"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/stng_sign_up_m7" />
+
+        <TextView
+            style="@style/textView_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/stng_sign_up_m8" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_registrate"
+        style="@style/button_style"
+
+        android:layout_marginTop="20dp"
+        android:text="@string/stng_sign_up_m1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_registrate">
+
+
+        <TextView
+            style="@style/textView_style"
+
+            android:text="@string/stng_sign_up_m9"
+            app:layout_constraintEnd_toStartOf="@+id/textView7"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="589dp" />
+
+        <Button
+
+            android:id="@+id/btnIniciar"
+            style="@style/textView_style"
+            android:background="@android:color/transparent"
+            android:text="@string/stng_sign_up_m10"
+            android:textColor="@color/red"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
